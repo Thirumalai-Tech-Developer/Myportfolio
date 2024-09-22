@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Skin Disease Detection AI",
+        "description": "AI-powered project for detecting skin diseases using image analysis and machine learning. It assists dermatologists in faster, more reliable diagnoses by recognizing patterns in medical images.",
+        "url": "https://github.com/Thirumalai-Tech-Developer/Skin-detection-AI.git"
+      },
+      {
+        "id": 2,
+        "title": "Weapon and Vehicle Crash Detection",
+        "description": "Surveillance system using AI to detect weapons and vehicle crashes in real-time. Sends immediate alerts to users or authorities, enhancing safety and response time.",
+        "url": "https://github.com/Thirumalai-Tech-Developer/Weapon-and-Vehicle-Crash-Detection.git"
+      },
+      {
+        "id": 3,
+        "title": "Cartoon Return",
+        "description": "An OTT platform for children's content, developed using Java. It allows users to browse, stream, and manage cartoons and animations with a user-friendly interface.",
+        "url": "https://github.com/Thirumalai-Tech-Developer/Cartoon_FullStack.git"
+      },
+      {
+        "id": 4,
+        "title": "Database Query Automator",
+        "description": "MySQL-based project that simplifies complex database querying for non-technical users with an easy-to-use interface.",
+        "url": "https://github.com/Thirumalai-Tech-Developer/DucTile_jdbc.git"
+      }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "College": "M uthayammal College of Engineering",
+        "Course": "B .Tech Artificial Intelligence and Data Science",
+        "Year": "2 021-2025",
+        "percent": "7 7"
+      },
+      {
+        "id": 2,
+        "College": "N ew Power Matric Higher Secondary School",
+        "Course": "H SC",
+        "Year": "2 020-2021",
+        "percent": "7 7.3"
+      },
+      {
+        "id": 3,
+        "College": "N ew Power Matric Higher Secondary School",
+        "Course": "S SLC",
+        "Year": "2 019-2020",
+        "percent": "7 2.2"
+      }
+]
