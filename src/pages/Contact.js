@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
+import './contact.css'
+import earth from './earth.png'
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -45,10 +47,11 @@ const Contact = () => {
   };
 
   return (
-    <div className='bg-white p-5 m-5  bg-opacity-10 rounded-2xl '>
+    <div className='bg-white p-5 m-5 w-full bg-opacity-10 rounded-2xl '>
       <h1 className='text-3xl mb-4 text-[#04ff96]'>
       CONTACT</h1>
-    <div className='bg-white bg-opacity-25 rounded-xl p-8 shadow-lg max-w-md mx-auto'>
+      <div className='xl:grid xl:grid-cols-2'>
+    <div className='bg-black bg-opacity-25 rounded-xl p-8 shadow-lg w-full max-w-md mx-auto'>
       <h2 className='text-3xl font-bold text-center mb-6'>Contact Me</h2>
       
       {isSent ? (
@@ -99,8 +102,11 @@ const Contact = () => {
           </button>
         </form>
       )}
-
+      </div>
       {error && <p className='text-red-500 text-center mt-4'>{error}</p>}
+      <div className='2xl:block xl:block md:hidden sm:hidden lg:hidden'>
+        <img className='w-[500px] h-[500px]' src={earth}></img>
+      </div>
     </div>
     </div>
   );

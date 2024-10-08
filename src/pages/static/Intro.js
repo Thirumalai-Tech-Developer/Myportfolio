@@ -110,17 +110,17 @@ const Intro = () => {
         zIndex: 10,
         color: 'white',
         padding: '10px',
-        backdropFilter: 'blur(1px)',
+        backdropFilter: 'blur(2px)',
         borderRadius: '15px',
       }}
     >
       <div className='h-auto'>
-        <h1 className='text-5xl max-sm:text-3xl max-md:text-4xl font-bold' style={{ color: '#ff0b72' }}>
+        <h1 className='text-5xl max-sm:text-3xl max-md:text-4xl font-bold' style={{ color: '#ffffff' }}>
           <TypingEff text={detail.name} speed="100" />
         </h1>
       </div>
       <div>
-        <p className='text-sm sm:text-lg md:text-xl mt-3 font-medium' style={{ color: '#f2c7ff' }}>
+        <p className='text-sm sm:text-lg md:text-xl mt-3 w-full font-medium' style={{ color: '#f2c7ff' }}>
           <TypingEff text={detail.objective} speed="15" />
         </p>
       </div>

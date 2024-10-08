@@ -8,7 +8,7 @@ const Home = () => {
 
   return (
     <>
-    <div className='bg-white min-h-screen p-5 m-5  bg-opacity-10 rounded-2xl '>
+    <div className='bg-white min-h-screen w-full p-5 m-5  bg-opacity-10 rounded-2xl '>
       <Intro />
     </div>
     </>

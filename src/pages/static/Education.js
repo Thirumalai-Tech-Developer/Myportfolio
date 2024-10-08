@@ -32,17 +32,17 @@ const Education = () => {
             onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}
           >
             <h1 className='font-bold mb-2 text-lg sm:text-xl md:text-2xl' style={{ 
-              color: '#98ff00',
+              color: '#2fffd3',
             }}>
               <TypingEff text={stud.College} speed="100" />
             </h1>
-            <h2 className='text-lg sm:text-xl md:text-2xl font-semibold mb-2' style={{ color: '#f2c7ff' }}>
+            <h2 className='text-lg sm:text-xl md:text-2xl font-semibold mb-2' style={{ color: '#ffffff' }}>
               <TypingEff text={stud.Course} speed="80" />
             </h2>
-            <p className='text-base sm:text-lg md:text-xl mb-3' style={{ color: '#f2c7ff' }}>
+            <p className='text-base sm:text-lg md:text-xl mb-3' style={{ color: '#ffffff' }}>
               <TypingEff text={stud.Year} speed="80" />
             </p>
-            <p className='text-lg sm:text-xl md:text-2xl font-medium' style={{ color: '#f2c7ff' }}>
+            <p className='text-lg sm:text-xl md:text-2xl font-medium' style={{ color: '#ffffff' }}>
               <TypingEff text={stud.percent + ' %'} speed="40" />
             </p>
           </div>
